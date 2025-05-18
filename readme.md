@@ -25,11 +25,17 @@ Visit `localhost:5000` - you will see the management console to verify players w
    git clone https://github.com/A29-Dev/SimpleD2M
    cd fabcord
 
+0. Auto setup
+   Run `./setup` to set up Python environment, or follow the below steps to setup manually.
+
 2. Create and activate virtual environment
    
    `python3 -m venv venv`
    
    `source venv/bin/activate`
+
+3. Make *main.py* excecutable
+   `chmod +x main.py`
 
 3. Install dependencies
 
