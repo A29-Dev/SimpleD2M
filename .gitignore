@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+config.json
+
+# Flask runtime files
+instance/
