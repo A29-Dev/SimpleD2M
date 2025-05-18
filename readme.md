@@ -29,7 +29,7 @@ Visit `localhost:5000` - you will see the management console to verify players w
    cd fabcord
 
 0. Auto setup
-   Run `./setup` to set up Python environment, or follow the below steps to setup manually.
+   Run `./setup` to set up Python environment (Linux only), or follow the below steps to setup manually.
 
 2. Create and activate virtual environment
    
