@@ -30,6 +30,7 @@ Visit `localhost:5000` - you will see the management console to verify players w
 
 0. Auto setup
    Run `./setup` to set up Python environment (Linux only), or follow the below steps to setup manually.
+   *./setup expects python3 and pip are installed. This is a bug, checks will be made in a future release*
 
 2. Create and activate virtual environment
    
