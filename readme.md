@@ -7,7 +7,7 @@ SimpleD2M is a lightweight Python program that lets you verify players Discord n
 
 ## Usage
 `!fabcord` - Players run this command in the Discord server. They are sent a DM from the bot asking for their Minecraft Username
-`!sync-verified` - A command to help fix data errors, it will show players who are known to fabcord but don't have a UUID linked.
+`!sync_verified` - A command to help fix data errors, it will show players who are known to fabcord but don't have a UUID linked.
 
 Visit `localhost:5000` - you will see the management console to verify players who have interacted with the bot. Here you can also remove their verification
 
