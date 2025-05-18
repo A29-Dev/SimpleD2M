@@ -2,6 +2,12 @@
 
 SimpleD2M is a lightweight Python program that lets you verify players Discord name against their Minecraft Username.
 
+## Usage
+`!fabcord` - Players run this command in the Discord server. They are sent a DM from the bot asking for their Minecraft Username
+`!sync-verified` - A command to help fix data errors, it will show players who are known to fabcord but don't have a UUID linked.
+
+Visit `localhost:5000` - you will see the management console to verify players who have interacted with the bot. Here you can also remove their verification
+
 ## Set Up Discord Bot
 1. Go to https://discord.com/developers/applications and create a new application.
 2. Give it a name (This will be the bots username in your server)
@@ -15,7 +21,7 @@ SimpleD2M is a lightweight Python program that lets you verify players Discord n
 ## Deploy on Server
 *This has been tested in Ubuntu Sever, config may be different on other flavours of Linux*
 
-1. Clone the repo
+1. Clone the repo.
    git clone https://github.com/A29-Dev/SimpleD2M
    cd fabcord
 
